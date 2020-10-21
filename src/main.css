@@ -122,10 +122,6 @@ fieldset{
 }
 
 
-.sect-wrap{
-  width:90%;
-  margin-left:5%;
-}
 
 .bg-photo{
     margin-top: 62px;
@@ -133,7 +129,8 @@ fieldset{
     background-image: url("images/office.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    min-height: 500px;
+    max-height: 800px;
     overflow-y: auto;
     overflow-x: hidden;
     width:100%;
@@ -326,7 +323,9 @@ thead tr{
 
 .on-photo{
     text-align:center; background-color: black;
-    opacity: 0.8; height: 100%;
+    opacity: 0.8; 
+    min-height: 500px;
+    max-height: 800px;
 }
 .on-photo p{
     font-family:times;
@@ -334,7 +333,8 @@ thead tr{
     color:white;
     font-size: 1.8em;
     word-wrap: wrap;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    letter-spacing: 10px;
     line-height: 45px;
     padding:25px;
 }
@@ -343,7 +343,7 @@ thead tr{
     font-weight: 300;
     font-size: 3em;
     margin: 0 auto;
-    padding: 15px 140px 0 0;
+    padding: 20px 140px 0 0;
   }
   .shimmer {
     text-align: center;
