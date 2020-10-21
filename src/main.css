@@ -137,7 +137,7 @@ fieldset{
     background-size: cover;
 }
 .footer-table-body tr td{
-  padding-right:30px;
+  padding-right:0.45em;
 }
 .footer-table-body tr td li{
   display: inline-block;
