@@ -136,10 +136,13 @@ fieldset{
     width:100%;
     background-size: cover;
 }
-.footer-table-body td li{
+.footer-table-body tr td{
+  padding-right:30px;
+}
+.footer-table-body tr td li{
   display: inline-block;
 }
-.footer-table-body td li img{
+.footer-table-body tr td li img{
   width: 30px; height: 30px; border-radius:50%;
 }
 thead tr{
@@ -147,7 +150,7 @@ thead tr{
   font-size: 26px; font-weight: 500; color: rgb(204, 204, 20);
   text-decoration: underline; text-decoration-color: rgb(50, 43, 83);
 }
-.footer-table-body td .social-desc{
+.footer-table-body tr td .social-desc{
   position:absolute; font-size: 20px; padding-left:3px;
   font-family:'Times New Roman', Times, serif; font-weight:400;color:white
 }
