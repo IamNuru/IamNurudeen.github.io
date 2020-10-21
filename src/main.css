@@ -335,7 +335,7 @@ thead tr{
     font-size: 1.8em;
     word-wrap: wrap;
     letter-spacing: 3px;
-    letter-spacing: 10px;
+    word-spacing: 10px;
     line-height: 45px;
     padding:25px;
 }
