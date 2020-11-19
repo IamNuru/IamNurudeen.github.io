@@ -10,6 +10,7 @@ body{
 ul,li{
     font-style: none;
 }
+
 /* .cover-image{
   background-image: url('nuru.jpg');
   height: 100%; 
@@ -129,8 +130,9 @@ fieldset{
     background-image: url("images/office.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 500px;
-    max-height: 800px;
+    /* min-height: 500px;
+    max-height: 800px; */
+    height:100vh;
     overflow-y: auto;
     overflow-x: hidden;
     width:100%;
@@ -238,9 +240,10 @@ thead tr{
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 5px;
     font-size: 36px;
     margin-left: 50px;
+    padding-right:30px
   }
 
 .site-footer{
@@ -254,6 +257,7 @@ thead tr{
  box-sizing: border-box;
  width: 100%;
  /* border:1px solid #ccc; */
+ background-color: rgb(234, 226, 226);
  border-radius:4px;
  padding:10px;
  margin:10px;
@@ -278,7 +282,8 @@ thead tr{
   min-height: 40px;
   background: rgb(243, 245, 247);
   transition:2s;
-  padding:3px
+  padding:3px;
+  border: 1px solid #a18cec;
 }
 .p-input-wrap input:focus{
   outline-color: rgba(196, 190, 190, 0.466);
@@ -312,7 +317,7 @@ thead tr{
   background-color: rgb(206, 23, 23);
   opacity: 0.6;
   width:120px;
-  border-radius: 10px;
+  border-radius: 4px;
   min-height:40px;
   padding:2px 5px;
   color: white;
@@ -328,8 +333,7 @@ thead tr{
 .on-photo{
     text-align:center; background-color: black;
     opacity: 0.8; 
-    min-height: 500px;
-    max-height: 800px;
+    height:100vh
 }
 .on-photo p{
     font-family:times;
@@ -513,4 +517,12 @@ thead tr{
 @media screen and (max-width: 760px) {
   .desktop-menus{display:none !important;}
   .toggler{display:block !important;}
+  .contact{
+    margin:0.4rem;
+  }
   }  
+
+  .contact{
+    
+    margin:3rem;
+  }
